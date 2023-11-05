@@ -9,7 +9,6 @@ import Home from "./Views/Home/Home";
 function App() {
   return (
     <div className="App">
-      <h1>Henry Pokemon</h1>
       <BrowserRouter>
         <Navbar />
         <Routes>

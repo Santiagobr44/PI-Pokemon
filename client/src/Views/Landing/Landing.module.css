@@ -1,0 +1,98 @@
+/* LandingPage.module.css */
+.container {
+  background-image: url("/background.jpg");
+  background-size: cover;
+  background-color: #ffffff; /* Fondo blanco neutro */
+  color: #333333; /* Texto en negro nocturno */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  font-family: "Press Start 2P", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.title {
+  color: #ee5e5e; /* Rojo Pokémon para el título */
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: #f7d74b; /* Amarillo Pikachu para el subtítulo */
+  font-size: 60px;
+  margin-top: 0;
+}
+
+.button {
+  background-color: #ee5e5e; /* Rojo Pokémon para el botón */
+  color: #ffffff;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #f7d74b; /* Amarillo Pikachu al pasar el ratón sobre el botón */
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.feature {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #4aa1d7; /* Azul Agua para el borde */
+  border-radius: 10px;
+  background-color: #3fc742; /* Verde Hierba como fondo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  flex: 1;
+  min-width: 250px;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; /* Agregamos transiciones para varios estilos */
+
+  /* Agregamos un cursor indicando que es interactivo */
+  cursor: pointer;
+}
+
+.feature:hover {
+  transform: scale(
+    1.05
+  ); /* Escalamos ligeramente al pasar el ratón sobre el "feature" */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4); /* Aumentamos la sombra al pasar el ratón */
+  background-color: #7ecb20; /* Cambiamos el fondo al pasar el ratón */
+}
+
+.feature h2 {
+  color: #ee5e5e; /* Rojo Pokémon para los títulos de los features */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #333333; /* Texto en negro nocturno */
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #ffffff; /* Fondo blanco neutro para el pie de página */
+  color: #333333; /* Texto en negro nocturno */
+  padding: 20px;
+}
